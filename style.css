@@ -1,0 +1,94 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form styling */
+.Form {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Input {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Card styling */
+.card {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align elements horizontally */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    gap: 10px; /* Space between elements */
+}
+
+/* Card content styling */
+.cityDisplay {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tempDisplay {
+    font-size: 20px;
+    margin: 0;
+}
+
+.humidityDisplay {
+    font-size: 18px;
+    margin: 0;
+}
+
+.descDisplay {
+    font-size: 18px;
+    margin: 0;
+}
+
+.weatherEmoji {
+    font-size: 36px; /* Larger font size for the emoji */
+    margin: 0;
+}
+
+/* Error display styling */
+.error {
+    color: #ff4d4d;
+    font-size: 18px;
+    font-weight: bold;
+}
